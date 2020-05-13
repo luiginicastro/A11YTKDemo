@@ -350,8 +350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Chair
 --- !u!54 &27257634
@@ -464,8 +464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Couch
 --- !u!114 &65360259
@@ -1092,8 +1092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Keyboard
 --- !u!54 &127351127
@@ -1511,8 +1511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 8a5c16663eed7374b959dc3cfcfdfd30, type: 2}
   _text: Photography by Nicole Helena
 --- !u!114 &166590382
@@ -1744,8 +1744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 6d91ec7252d0f8a418048501b5e67cb9, type: 2}
   _text: Potted plant
 --- !u!54 &239127355
@@ -2347,8 +2347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Bookshelf
 --- !u!54 &292091386
@@ -2707,8 +2707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 8a5c16663eed7374b959dc3cfcfdfd30, type: 2}
   _text: Photography by Nicole Helena
 --- !u!54 &354174722
@@ -3032,8 +3032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Press "A"
 --- !u!114 &428615341
@@ -3532,9 +3532,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
-  _subtitleOptions: {fileID: 11400000, guid: 645230e83f7753347b8fb281e709dde4, type: 2}
+  _mode: 0
+  _subtitleOptions: {fileID: 11400000, guid: 8a5c16663eed7374b959dc3cfcfdfd30, type: 2}
   _text: Coffee Mug
 --- !u!1001 &550267283
 PrefabInstance:
@@ -3615,99 +3615,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
---- !u!1 &561804219
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 561804220}
-  - component: {fileID: 561804223}
-  - component: {fileID: 561804222}
-  - component: {fileID: 561804221}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &561804220
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561804219}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1026189036}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &561804221
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561804219}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &561804222
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561804219}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &561804223
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561804219}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &576305483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4317,12 +4224,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374462cffce242f19e22da64af7c8b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: b72cc35d7f06e1c4bbabc68018478ba4, type: 2}
   _subtitleText: 
   _subtitleTextAsset: {fileID: 4900000, guid: a14bcfd6b59dd9f4c9be8591cc6cdfd3, type: 3}
-  _videoPlayer: {fileID: 699811193}
+  _videoSource: {fileID: 699811193}
 --- !u!1 &702177955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1219609485218594, guid: f86e4cd5574369b4f8d52f553f074223,
@@ -4357,8 +4264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 6d91ec7252d0f8a418048501b5e67cb9, type: 2}
   _text: Pen holder
 --- !u!54 &721852724
@@ -4507,8 +4414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Chair
 --- !u!114 &765834224
@@ -4598,8 +4505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Monitor
 --- !u!114 &779160075
@@ -5069,8 +4976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Coffee table
 --- !u!54 &875147703
@@ -5427,8 +5334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Potted Plant
 --- !u!114 &945063712
@@ -5923,10 +5830,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026189035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.011541009, y: 0.058885556, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 561804220}
+  - {fileID: 2121787487}
   m_Father: {fileID: 72711639}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6386,8 +6293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 6d91ec7252d0f8a418048501b5e67cb9, type: 2}
   _text: Computer
 --- !u!54 &1069539228
@@ -6935,8 +6842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37a808aaed43e44a4ad8cf5eeab55437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 6d91ec7252d0f8a418048501b5e67cb9, type: 2}
   _subtitleText: '1
 
@@ -7459,8 +7366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Bookshelf
 --- !u!54 &1375150050
@@ -8004,8 +7911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 8a5c16663eed7374b959dc3cfcfdfd30, type: 2}
   _text: Painting by Colt Nicastro
 --- !u!65 &1453495595
@@ -8221,8 +8128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Desk
 --- !u!114 &1468061875
@@ -8485,99 +8392,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1699375639}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1533222600
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1533222601}
-  - component: {fileID: 1533222604}
-  - component: {fileID: 1533222603}
-  - component: {fileID: 1533222602}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1533222601
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533222600}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1794319932}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1533222602
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533222600}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1533222603
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533222600}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1533222604
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533222600}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1546221167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4618513169714114, guid: 79a341f0ed938f14599ea1ecb9abac2e,
@@ -9227,8 +9041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: 6d91ec7252d0f8a418048501b5e67cb9, type: 2}
   _text: Lamp
 --- !u!114 &1666222858
@@ -9446,8 +9260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Coffee table
 --- !u!114 &1683375158
@@ -10146,7 +9960,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1533222601}
+  - {fileID: 1892403403}
   m_Father: {fileID: 72711639}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10684,6 +10498,69 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f670e5001ba6fcb4da01df783e279e71, type: 3}
+--- !u!1001 &1892403402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1794319932}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_Name
+      value: OculusTouchForQuestAndRiftS_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32fbc8bcebb64584da5868aeeb086cda, type: 3}
+--- !u!4 &1892403403 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 32fbc8bcebb64584da5868aeeb086cda,
+    type: 3}
+  m_PrefabInstance: {fileID: 1892403402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1898586877
 GameObject:
   m_ObjectHideFlags: 0
@@ -11029,8 +10906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Coffee table
 --- !u!54 &1966168467
@@ -11839,8 +11716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Potted plant
 --- !u!114 &2069120261
@@ -12171,8 +12048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e4424ed34d8d8000e68a98e19bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mode: 0
   _position: 0
+  _mode: 0
   _subtitleOptions: {fileID: 11400000, guid: fdd3124510906634cb1cb1ad46c9a7ea, type: 2}
   _text: Computer chair
 --- !u!114 &2106111069
@@ -12217,6 +12094,69 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b9ad5a30f6ddfb04ead4a475b2911054, type: 3}
+--- !u!1001 &2121787486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1026189036}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_Name
+      value: OculusTouchForQuestAndRiftS_Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+--- !u!4 &2121787487 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 37ba10a26a648144fa2390c8adfb2c8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2121787486}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2128223800 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1556798328037586, guid: b0b25d39ee8d29546bcaaeb1b217bdaa,
